@@ -2,7 +2,7 @@ import { GraphQLClient } from "graphql-request";
 
 const GRAPHQL_ENDPOINT = import.meta.env.VITE_GRAPHQL_ENDPOINT;
 const adminSecret = decodeURIComponent(import.meta.env.VITE_HEADER_ADMIN_SECRET)
-console.log('✅.ENV: graphql URL', GRAPHQL_ENDPOINT);
+//console.log('✅.ENV: graphql URL', GRAPHQL_ENDPOINT);
 
 export const graphQLClient = new GraphQLClient(GRAPHQL_ENDPOINT);
 
