@@ -4,3 +4,10 @@ export interface BarData {
     totalInbound: number;
     totalOutbound: number;
   }
+
+export interface ChartData {
+    date: string;
+    EMAIL: number;
+    INMAIL: number;
+    INBOX: number;
+  }
